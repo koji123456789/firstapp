@@ -12,10 +12,22 @@ const Navbar = () => {
                     <Link to='/' style={{color:'white'}}>login</Link>
                     </Button>
                     <Button   >
+                    <Link to='/t' style={{color:'white'}}>table</Link>
+                    </Button>
+                    <Button   >
                     <Link to='/Signup' style={{color:'white'}}>Sign up</Link>
                     </Button>
                     <Button   >
                     <Link to='/c' style={{color:'white'}}>counter</Link>
+                    </Button>
+                    <Button   >
+                    <Link to='/l' style={{color:'white'}}>link</Link>
+                    </Button>
+                    <Button   >
+                    <Link to='/a' style={{color:'white'}}>api</Link>
+                    </Button>
+                    <Button   >
+                    <Link to='/g' style={{color:'white'}}>Grid</Link>
                     </Button>
             </Toolbar>
         </AppBar>
